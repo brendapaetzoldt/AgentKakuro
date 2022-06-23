@@ -88,6 +88,7 @@ Escreva:
 DA SILVA, Fabrıcio Machado; LENZ, Maikon Lucian; FREITAS, Pedro Henrique Chagas; SANTOS,
 Sidney Cerqueira Bispo. Inteligˆencia Artificial. Grupo A, 2019. Dispon´ıvel em: https://app.
 minhabiblioteca.com.br/#/books/9788595029392.
+<br/>
 
 WWW.SFU.CA. Notes on Chapter 6: Constraint Satisfaction Problems. Disponível em: http://www.sfu.ca/~tjd/310summer2019/chp6_csp.html. Acesso em: 16 jun. 2022.
 
