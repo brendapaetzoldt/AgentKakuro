@@ -34,7 +34,7 @@ Exemplos mais comuns de uso de CSP são jogos como Kakuro, Damas, Xadrez, Futosh
 
 	Tabuleiro _5x5	
  
- ![easy](https://user-images.githubusercontent.com/18469694/175239744-46984e2f-7d82-4058-a1d4-8d4cb4e69056.png)
+![5](https://user-images.githubusercontent.com/18469694/175383331-408e2039-1d00-4a7f-807c-0f036f4cca61.png)
 
 	Tabuleiro _12x10	
 ![hard](https://user-images.githubusercontent.com/18469694/175239772-09a3de68-d1b4-4cad-bb0c-ba756a7941b7.png)
@@ -54,6 +54,9 @@ Com o objetivo de testar as algoritmos em diferentes tamanhos de tabuleiros, for
 				
 ![image](https://user-images.githubusercontent.com/18469694/175238252-2f4076be-8f64-446a-82b0-9ecd017a1e90.png)
 
+![image](https://user-images.githubusercontent.com/18469694/175378811-4e808de9-dbe4-4e3d-a287-45c2da12026c.png)
+
+
 
 												
 	Tabuleiro _12x10	
@@ -64,8 +67,10 @@ Com o objetivo de testar as algoritmos em diferentes tamanhos de tabuleiros, for
 				
 ![image](https://user-images.githubusercontent.com/18469694/175240105-1339e618-43fe-44c6-8050-347e59f9dbe3.png)
 
-<h2 align="center">Conclusão</h2>   
-todo
+![image](https://user-images.githubusercontent.com/18469694/175378844-c5e5a6a2-1fa4-4572-96cb-9c70a23a8319.png)
+
+
+
 
 
 <br/><br/>
