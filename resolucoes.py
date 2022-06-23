@@ -58,20 +58,6 @@ class CSP():
         for B, b in removedor:
             self.domatual[B].append(b)
 
-def arcConsistencyAlgorithm3(csp, fila=None, removedor=None):
-    if fila is None:
-        fila = [(XX, Xk) for XX in csp.var for Xk in csp.vizinhos[XX]]
-    csp.spoda()
-    while fila:
-        (XX, XY) = fila.pop()
-        if verificarRemocao(csp, XX, XY, removedor):
-            if not csp.domatual[XX]:
-                return False
-            for Xk in csp.vizinhos[XX]:
-                if Xk != XX:
-                    fila.append((Xk, XX))
-    return True
-
 def verificarRemocao(csp, XX, XY, removedor):
     verificada = False
     for x in csp.domatual[XX][:]:
@@ -99,7 +85,6 @@ def inferencia(csp, var, value, assignment, removedor):
     return True
 
 def verificacao(csp, var, value, assignment, removedor):
-    "Prune neighbor values inconsistent with var=value."
     for B in csp.vizinhos[var]:
         if B not in assignment:
             for b in csp.domatual[B][:]:
@@ -108,9 +93,6 @@ def verificacao(csp, var, value, assignment, removedor):
             if not csp.domatual[B]:
                 return False
     return True
-
-def MaintainArcConsistency(csp, var, value, assignment, removedor):
-    return arcConsistencyAlgorithm3(csp, [(X, var) for X in csp.vizinhos[var]], removedor)
 
 def backtrack(csp,
                         valsNAtribuidas=varNAtribuida,

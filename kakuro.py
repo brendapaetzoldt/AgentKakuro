@@ -150,24 +150,6 @@ class Kakuro(CSP):
         end = time.time()
         return (result, end - start)
 
-    def FC(self):
-        start = time.time()
-        result = (backtrack(self, aInferencia=verificacao))
-        end = time.time()
-        return (result, end - start)
-
-    def FC_MRV(self):
-        start = time.time()
-        result = (backtrack(self, valsNAtribuidas=minValRestantes, aInferencia=verificacao))
-        end = time.time()
-        return (result, end - start)
-
-    def MAC(self):
-        start = time.time()
-        result = (backtrack(self, valsNAtribuidas=minValRestantes, aInferencia=MaintainArcConsistency))
-        end = time.time()
-        return (result, end - start)
-
     def grid(self, grid):
         for i in range(self.tamanhoColuna):
             for j in range(self.tamanhoColuna):
@@ -203,15 +185,8 @@ if __name__ == "__main__":
     for tamanhoTabuleiro, tabuleiro in tabuleirosKakuro:
         print("\n____________________________Tabuleiro {}_______________________________".format(tamanhoTabuleiro))
         kakuro = Kakuro(tabuleiro)
-        kakuro.grid(kakuro.tabuleiro)
         print("\n> Backtracking")
         kakuro.aSolucao(kakuro.tabuleiro, *kakuro.BT(), kakuro.nassigns)
         print("\n> Backtracking e Valores Mínimos Rrestantes (MRV)")
         kakuro.aSolucao(kakuro.tabuleiro, *kakuro.BT_MRV(), kakuro.nassigns)
-        print("\n> Verificação direta")
-        kakuro.aSolucao(kakuro.tabuleiro, *kakuro.FC(), kakuro.nassigns)
-        print("\n> Verificação direta e Valores Mínimos Rrestantes (MRV)")
-        kakuro.aSolucao(kakuro.tabuleiro, *kakuro.FC_MRV(), kakuro.nassigns)
-        print("\n> Mantendo a consistência do arco")
-        kakuro.aSolucao(kakuro.tabuleiro, *kakuro.MAC(), kakuro.nassigns)
         print()
