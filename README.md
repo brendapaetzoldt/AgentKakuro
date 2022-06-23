@@ -25,9 +25,47 @@ Exemplos mais comuns de uso de CSP são jogos como Kakuro, Damas, Xadrez, Futosh
     - Escolhe valores para uma variável de cada vez<br/>
     - Verifica a consistência com as restrições.<br/>
     
-# Comparações e análises
+<h2 align="center">Tabuleiros</h2>   
+
+	Tabuleiro _5x5	
+ 
+ ![easy](https://user-images.githubusercontent.com/18469694/175239744-46984e2f-7d82-4058-a1d4-8d4cb4e69056.png)
+
+	Tabuleiro _12x10	
+![hard](https://user-images.githubusercontent.com/18469694/175239772-09a3de68-d1b4-4cad-bb0c-ba756a7941b7.png)
+
+
+<h2 align="center">Comparações e análises</h2>   
+
+
+Com o objetivo de testar as algoritmos em diferentes tamanhos de tabuleiros, foram realizadas dez execuções de cada e o tempo em segundos que cada um levou até encontrar a solução pode ser verificada nas tabelas abaixo:
+												
+											
+	Tabuleiro _5x5	
+												
+![image](https://user-images.githubusercontent.com/18469694/175237358-3a2cd432-63f3-4301-b336-f4308f4f9c43.png)
+*Valores em segundos
+
+				
+![image](https://user-images.githubusercontent.com/18469694/175238252-2f4076be-8f64-446a-82b0-9ecd017a1e90.png)
+
+
+												
+	Tabuleiro _12x10	
+												
+![image](https://user-images.githubusercontent.com/18469694/175237547-290c0ede-233f-47e0-88c6-ad3d16e4b062.png)
+*Valores em segundos
+				
+				
+![image](https://user-images.githubusercontent.com/18469694/175240105-1339e618-43fe-44c6-8050-347e59f9dbe3.png)
+
 
 # Conclusão
-
+todo
 
 # Referências bibliográficas
+DA SILVA, Fabrıcio Machado; LENZ, Maikon Lucian; FREITAS, Pedro Henrique Chagas; SANTOS,
+Sidney Cerqueira Bispo. Inteligˆencia Artificial. Grupo A, 2019. Dispon´ıvel em: https://app.
+minhabiblioteca.com.br/#/books/9788595029392.
+
+WWW.SFU.CA. Notes on Chapter 6: Constraint Satisfaction Problems. Disponível em: http://www.sfu.ca/~tjd/310summer2019/chp6_csp.html. Acesso em: 16 jun. 2022.
