@@ -5,6 +5,11 @@
 
 Diferentes tipos de algoritmos de puzzle que tem como objetivo resolver uma solução para o problema de busca. Este trabalho tem como objetivo de desenvolver uma solução de puzzles com o jogo Kakuro utilizando um agente para os algoritmos de satisfação de restrições (CSP – Constraint Satisfaction Problem). 
 
+<br/>
+<h2 align="center">Equipe</h2>
+Brenda Paetzoldt Silva - brendapaetzoldt<br/>
+Robson de Jesus - robsondejesus1996<br/>
+<br/>
 
 <h2 align="center">Sobre o jogo</h2>
 O jogo tem algumas semelhanças com palavras cruzadas, mas ao invés de letrar o tabuleiro é preenchido com dígitos de 1 a 9. Os quadrados do tabuleiro precisam ser preenchidos com esses dígitos para somar números específicos que a linha superior ou lateral esquerda está solicitando. Basicamente a principal regra faz um travamento em utilizar o mesmo digito mais de uma vez para obter uma determinada soma, e cada quebra cabeça existe uma solução única. 
@@ -59,13 +64,31 @@ Com o objetivo de testar as algoritmos em diferentes tamanhos de tabuleiros, for
 				
 ![image](https://user-images.githubusercontent.com/18469694/175240105-1339e618-43fe-44c6-8050-347e59f9dbe3.png)
 
-
-# Conclusão
+<h2 align="center">Conclusão</h2>   
 todo
 
-# Referências bibliográficas
+
+<br/><br/>
+<h2 align="center">Download</h2>   
+
+git clone [https://github.com/nikosgalanis/KakuroSolver.git](https://github.com/brendapaetzoldt/AgentKakuro.git)
+
+<br/><br/>
+
+<h2 align="center">Executar</h2>   
+Escreva:
+</h2>
+
+	kakuro.py
+	
+
+<br/><br/>
+<h2 align="center">Referências bibliográficas</h2>   
+<br/>
 DA SILVA, Fabrıcio Machado; LENZ, Maikon Lucian; FREITAS, Pedro Henrique Chagas; SANTOS,
 Sidney Cerqueira Bispo. Inteligˆencia Artificial. Grupo A, 2019. Dispon´ıvel em: https://app.
 minhabiblioteca.com.br/#/books/9788595029392.
 
 WWW.SFU.CA. Notes on Chapter 6: Constraint Satisfaction Problems. Disponível em: http://www.sfu.ca/~tjd/310summer2019/chp6_csp.html. Acesso em: 16 jun. 2022.
+
+<br/><br/>
