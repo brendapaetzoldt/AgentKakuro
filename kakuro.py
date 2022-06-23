@@ -187,6 +187,6 @@ if __name__ == "__main__":
         kakuro = Kakuro(tabuleiro)
         print("\n> Backtracking")
         kakuro.aSolucao(kakuro.tabuleiro, *kakuro.BT(), kakuro.nassigns)
-        print("\n> Backtracking e Valores Mínimos Rrestantes (MRV)")
+        print("\n> Backtracking e Valores Mínimos Restantes (MRV)")
         kakuro.aSolucao(kakuro.tabuleiro, *kakuro.BT_MRV(), kakuro.nassigns)
         print()
