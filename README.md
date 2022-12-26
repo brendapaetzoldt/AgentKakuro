@@ -1,7 +1,7 @@
 <h1 align="center">AgentKakuro</h1>
 
 
-Desenvolvido para a disciplina 85EAG - Engenharia de Software Orientada a Agentes do curso Engenharia de Software da Udesc - Ceavi.
+> Desenvolvido para a disciplina 85EAG - Engenharia de Software Orientada a Agentes do curso Engenharia de Software da Udesc - Ceavi.
 
 Diferentes tipos de algoritmos de puzzle que tem como objetivo resolver uma solução para o problema de busca. Este trabalho tem como objetivo de desenvolver uma solução de puzzles com o jogo Kakuro utilizando um agente para os algoritmos de satisfação de restrições (CSP – Constraint Satisfaction Problem). 
 
